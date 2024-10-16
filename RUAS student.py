@@ -99,7 +99,7 @@ t8 = StringVar()
 t9 = StringVar()
 
 
-img = Image.open("C:\\Users\\rahul\\OneDrive\\Desktop\\bhumi\\Student Portal\\MSRUAS.png")
+img = Image.open("\\MSRUAS.png")
 img = img.resize((400,150))
 my=ImageTk.PhotoImage(img)
 
