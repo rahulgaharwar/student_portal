@@ -14,12 +14,12 @@ def signIn():
     password = code.get()
 
     if username =='admin' and password =='1234':
-        link = "C:\\Users\\rahul\\OneDrive\\Desktop\\Student Portal\\RUAS student.py"
+        link = "\\RUAS student.py"
         webbrowser.open(link)
     elif username!= 'admin' and password!= '1234':
         messagebox.showerror("Invalid","Invalid username or password")
 
-img = PhotoImage(file='C:\\Users\\rahul\\OneDrive\\Desktop\\Student Portal\\login.png')
+img = PhotoImage(file='\\login.png')
 resized_img = img.subsample(2,2)
 
 Label(root,image=resized_img,bg='white').place(x=50,y=50)
